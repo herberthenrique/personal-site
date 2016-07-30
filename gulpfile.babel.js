@@ -142,7 +142,8 @@ gulp.task('icons', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch(srcPaths.html, { debounceDelay: 300 }, ['html']);
+  gulp.watch('src/pug/**/*.pug', { debounceDelay: 300 }, ['html']);
+  gulp.watch('src/pug/*.pug', { debounceDelay: 300 }, ['html']);
   gulp.watch(srcPaths.data+'**/*', { debounceDelay: 300 }, ['read:data','html']);
   gulp.watch(srcPaths.css, ['css']);
   gulp.watch(srcPaths.js, ['js']);

@@ -1,0 +1,9 @@
+.skills
+	h2.subtitle Skills
+
+	.container
+		ul.skills-wrapper
+			each val in skills
+				li.inner-skill
+					.skill-expertise #{val.level}%
+					.skill-name #{val.name} 

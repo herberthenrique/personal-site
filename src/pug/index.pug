@@ -37,7 +37,6 @@ html
 
     //- Stylesheet
     //- --------------------------------------------------
-    link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700")
     link(rel="stylesheet", type="text/css", href="css/style.css")
     script(src="https://use.fontawesome.com/2fd8384be4.js")
     //- GA
@@ -53,48 +52,17 @@ html
 
 
   body
-    header
-      .hero
-        .titles
-          h1.title #{config.name}
-          h2.subtitle #{config.job}
+    include ../../build/svg/icons.svg
+    
+    include ./_partials/header.pug
 
-    .container
-      .about
-        .picture
-          img.picture-img(src="img/profile-picture.jpg", alt="Foto de Herbert")
-        .description
-          h2.title About
-          p #{config.about}
-    .skills
-      .container
-        h2.title Skills
-        ul.skills-wrapper
-          each val in skills
-            li.inner-skill
-              .skill-name #{val.name}
-              .progress
-                .progress-bar(data-value=val.level)
+    include ./_partials/skills.pug
 
-    footer.footer
-      .container
-        .contact
-          .title Get in Touch!
-          .contact-item
-            i.fa.fa-phone
-            =footer.phone
-          .contact-item
-            i.fa.fa-envelope
-            =footer.mail
-        .social
-          .title Or just follow me
-          .social-items
-            a(href=footer.github).social-ball
-                i.fa.fa-github
-            a(href=footer.twitter).social-ball
-                i.fa.fa-twitter
-            a(href=footer.linkedin).social-ball
-                i.fa.fa-linkedin
+    include ./_partials/projects.pug
+
+    include ./_partials/experience.pug
+
+    include ./_partials/footer.pug
 
     //- Scripts
     //- --------------------------------------------------

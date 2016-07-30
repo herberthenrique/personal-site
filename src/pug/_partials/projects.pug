@@ -1,0 +1,14 @@
+.projects
+	.container
+		h2.subtitle Projects
+		.projects-wrapper
+			each val in projects
+				.project-item 
+					a(href=val.url)
+						.project-image
+							img(src=val.image)
+						.project-name #{val.name}
+						.project-description #{val.description}
+		.plus-project.plus-sign
+			svg.icon
+				use(xlink:href='#plus-sign')

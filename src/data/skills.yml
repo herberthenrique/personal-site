@@ -1,12 +1,12 @@
 -
   name: GulpJS
-  level: 10
+  level: 100
 -
   name: Pug
-  level: 5
+  level: 30
 -
   name: Stylus
-  level: 7
+  level: 60
 -
   name: Browsersync
-  level: 1
+  level: 78

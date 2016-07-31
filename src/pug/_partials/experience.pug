@@ -1,6 +1,14 @@
 .experience
 	.container
 		h2.subtitle Experience
+		.company-wrapper
+			each val in companies
+				.company-item 
+					a(href=val.url)
+						.company-image
+							img(src=val.image)
+						.company-name #{val.name}
+						.company-description #{val.description}
+
 		.plus-experience
-		svg.icon.plus-sign
-			use(xlink:href='#plus-sign')
+			img(src="img/plus-sign-variant.png")

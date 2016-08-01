@@ -1,24 +1,24 @@
 footer.footer
-      .container
-        .contact
-          .title Get in Touch!
-          .contact-item
+  .container
+    .contact
+      .title Get in Touch!
+      .contact-item
+        svg.icon
+          use(xlink:href='#phone')
+        span.contact-text #{footer.phone}
+      .contact-item
+        svg.icon
+          use(xlink:href='#mail')
+        span.contact-text  #{footer.mail}
+    .social
+      .title Or just follow me
+      .social-items
+        a(href=footer.github).social-ball
             svg.icon
-              use(xlink:href='#phone')
-            span.contact-text #{footer.phone}
-          .contact-item
+              use(xlink:href='#github')
+        a(href=footer.twitter).social-ball
             svg.icon
-              use(xlink:href='#mail')
-            span.contact-text  #{footer.mail}
-        .social
-          .title Or just follow me
-          .social-items
-            a(href=footer.github).social-ball
-                svg.icon
-                  use(xlink:href='#github')
-            a(href=footer.twitter).social-ball
-                svg.icon
-                  use(xlink:href='#twitter')
-            a(href=footer.linkedin).social-ball
-                svg.icon
-                  use(xlink:href='#linkedin')
+              use(xlink:href='#twitter')
+        a(href=footer.linkedin).social-ball
+            svg.icon
+              use(xlink:href='#linkedin')

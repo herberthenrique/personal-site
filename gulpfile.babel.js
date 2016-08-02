@@ -89,8 +89,10 @@ gulp.task('vendors', () => {
 gulp.task('js', () => {
   gulp.src(srcPaths.js)
     .pipe(plumber())
+    .pipe(sourcemaps.init())
     .pipe(concat('main.js'))
     .pipe(uglify())
+    .pipe(sourcemaps.write())
     .on('error', onError)
     .pipe(gulp.dest(buildPaths.js));
 });

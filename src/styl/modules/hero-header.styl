@@ -1,4 +1,4 @@
-.header 
+.header
 	background url('../img/img-header.jpeg')
 	padding-top 55px
 	.logo
@@ -12,19 +12,20 @@
 	.container-about
 		margin-top 45px
 		display flex
+	.header-item
+		lost-column 1/2
+		+below($screen-sm)
+			lost-column 1/1
 	.about
 		display flex
 		justify-content center
 		flex-direction column
-		lost-column 1/2
-		lost-utility clearfix
 		.description
 			color light-white-grey
 			font-size text-size
 			.green
 				color brand-secondary
 	.profile-picture
-		lost-column 1/2
 		img
 			border-radius 50%
 			max-height 350px

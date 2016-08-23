@@ -1,3 +1,20 @@
+.img-company
+	max-height 100%
+	max-width 100%
+	margin 0 auto
+	position absolute
+	top 0
+	left 0
+	width auto
+	height auto
+	position absolute
+	top 0
+	bottom 0
+	left 0
+	right 0
+	margin auto
+	padding 22px
+
 .experience
 	text-align center
 	h2.subtitle
@@ -11,6 +28,8 @@
 		lost-utility clearfix
 		.company-item
 			lost-column 1/2
+			height 300px
+			margin-bottom 40px
 			+below($screen-md)
 				lost-column 1/1
 				margin-top 45px
@@ -21,14 +40,17 @@
 			line-height title-size
 		.company-description
 			color text-color
-			font-size text-size
+			font-size 1.6rem
 			font-weight normal-weight
-		.company-image
-			border 1px solid text-color
-			width 360px
-			margin 0 auto
-			img
-				padding 35px 25px
+
 	.plus-experience
 		margin-bottom 35px
 		margin-top 55px
+
+
+.company-image
+	border 1px solid text-color
+	width 360px
+	margin 0 auto
+	height 170px
+	position relative

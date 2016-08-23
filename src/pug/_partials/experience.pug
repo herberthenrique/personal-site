@@ -1,14 +1,14 @@
-.experience
+.experience#experience
 	.container
 		h2.subtitle Experience
 		.company-wrapper
 			each val in companies
-				.company-item 
-					a(href=val.url)
+				.company-item
+					a(href=val.url, target="_blank")
 						.company-image
-							img(src=val.image)
+							img.img-company(src=val.image)
 						.company-name #{val.name}
 						.company-description #{val.description}
-
-		.plus-experience
-			img(src="img/plus-sign-variant.png")
+		//
+			.plus-experience
+				img(src="img/plus-sign-variant.png")

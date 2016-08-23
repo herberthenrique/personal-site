@@ -1,10 +1,10 @@
 -
-  name: Project 01
-  url: http://google.com
-  image: img/projects/job1.png
-  description: lorem lorem lorem lorem lorem lorem lorem lorem 
+  name: This Site!
+  url: http://github.com/herberthenrique
+  image: img/projects/site.png
+  description: This site is a lab for Pug, Stylus and some front-end stuffs :)
 -
-  name: Project 01
-  url: http://google.com
-  image: img/projects/job1.png
-  description: lorem lorem lorem lorem lorem lorem lorem lorem 
+  name: Work In Progress
+  url: http://github.com/herberthenrique
+  image: img/projects/tbd.png
+  description: I'm still getting all the projects i worked, soon this area will be updated

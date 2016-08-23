@@ -1,10 +1,30 @@
 -
-  name: Company 01
-  url: http://google.com
-  image: img/experience/renault.png
-  description: lorem lorem lorem lorem lorem lorem lorem lorem 
+  name: Crunchflow
+  url: http://crunchflow.com
+  image: img/experience/crunchflow.png
+  description: Crunchflow is a new tool for workforce planning. Here I work as a Full Stack Developer, creating solutions with javascript, gulp, angular, html, css and C#, ASP.NET,
 -
-  name: Company 01
-  url: http://google.com
-  image: img/experience/renault.png
-  description: lorem lorem lorem lorem lorem lorem lorem lorem 
+  name: Dotz
+  url: http://dotz.com.br
+  image: img/experience/dotz.png
+  description: Dotz is a Relationship program. I worked here as a Full Stack Developer creating new applications for our customers or refactoring  ERP's with javscript. I used html, css, javascript, gulp and C# ASP.NET  on this company
+-
+  name: Safari
+  url: http://safari.to/
+  image: img/experience/safari.png
+  description: The company specializes in the innovative production and swift delivery of social and mobile applications, technology systems, creative strategies, and more. I worked here with nodejs, C#, ASP.NET, php, html, css and javscript
+-
+  name: Sumo Digital Production
+  url: http://sumo.do/
+  image: img/experience/sumo.jpg
+  description: Startup focused on creating a new experience for customers and social media. worked as a Full Stack Developer with C#, ASP.NET, Javascript, HTML and CSS
+-
+  name: Buzz Digital
+  url: http://buzzdigital.com.br/
+  image: img/experience/buzz.jpeg
+  description: Startup focused on creating a new experience events, tourism and travels. I started this company with a friend, but we can't go forward. worked here as back-end and tech lead.
+-
+  name: Pivot Produtora
+  url: http://ppivot.com.br/
+  image: img/experience/ppivot.gif
+  description: Attending various agencies for creating websites, campaigns, social apps. worked as a Full Stack Developer with C#, ASP.NET, Javascript, HTML and CSS

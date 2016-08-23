@@ -1,13 +1,13 @@
-.projects
+.projects#projects
 	.container
 		h2.subtitle Projects
 		.projects-wrapper
 			each val in projects
-				.project-item 
+				.project-item
 					a(href=val.url)
 						.project-image
 							img(src=val.image)
 						.project-name #{val.name}
 						.project-description #{val.description}
-		.plus-project.plus-sign
+		//.plus-project.plus-sign
 			img(src="img/plus-sign.png")

@@ -45,4 +45,4 @@ function activateGraph() {
 }
 
 
-ready(activateGraph);
+// ready(activateGraph);

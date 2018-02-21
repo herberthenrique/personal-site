@@ -1,7 +1,4 @@
 -
-  name: C#
-  level: 98
--
   name: Javascript
   level: 86
 -
@@ -11,26 +8,35 @@
   name: HTML
   level: 87
 -
-  name: GIT
-  level: 80
--
-  name: Gulp
-  level: 78
--
-  name: NodeJS
+  name: Node
   level: 64
 -
-  name: Jade/Pug
-  level: 60
+  name: React
+  level: 63
+-
+  name: Vue
+  level: 63
+-
+  name: Webpack
+  level: 63
+-
+  name: GIT
+  level: 80
 -
   name: Stylus
   level: 65
 -
-  name: SASS
+  name: SASS/CSS
   level: 62
 -
-  name: Angular
+  name: AngularJS
   level: 70
 -
   name: SQL
   level: 63
+-
+  name: Gulp
+  level: 78
+-
+  name: C#
+  level: 98
